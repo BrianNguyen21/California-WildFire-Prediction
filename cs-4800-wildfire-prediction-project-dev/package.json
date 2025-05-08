@@ -1,0 +1,37 @@
+{
+  "name": "cs-4800-wildfire-prediction-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint && npx prettier --check ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.9",
+    "@mui/x-date-pickers": "^5.0.8",
+    "csv-parser": "^3.0.0",
+    "deck.gl": "^8.8.20",
+    "mapbox-gl": "^2.10.0",
+    "moment": "^2.29.4",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.19"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.50.4",
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  }
+}
